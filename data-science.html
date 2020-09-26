@@ -132,14 +132,121 @@
         <article class="post">
         <div class="inner">
             <section class="post-content">
-                <p>This section is for my documentation purpose.</p>
+                <p>This section is for my documentation purpose. </p>
+<h4>Probability and Statistics:-</h4>
+<ul>
+<li>Data types | Measures of Central Tendency | Measures of Variability</li>
+<li>Data Distributions</li>
+<li>Measures of locations | Moments</li>
+<li>Covariance | Correlation</li>
+<li>Conditional Probability | Baye's Theorem</li>
+</ul>
+<hr>
+
+<h4>* <em>Data types:</em></h4>
+<p><img alt="Data types" src="/home/aman/Desktop/Notes/data_types.png"></p>
+<p><br></p>
+<ol>
+<li>
+<p><strong>Numerical Data</strong>, quantifiable information that is measurable.</p>
+<ul>
+<li>Discrete Data, integer based (eg. no.of people).</li>
+<li>Continuous Data, decimal based (eg. price, distance).</li>
+</ul>
+</li>
+<li>
+<p><strong>Categorical Data</strong>, qualitative data, used to classify data into categories.
+For example, gender, brands, etc.</p>
+</li>
+<li>
+<p><strong>Ordinal Data</strong>, represents discrete and ordered units, e.g. league rank, hotel rating(1-5).</p>
+</li>
+</ol>
+<p><br></p>
+<h4>* <em>Measures of Central Tendency:</em></h4>
+<p>Let's assume the dataset of 5 numbers:</p>
+<blockquote>
+<p>{6, 3, 100, 3, 13}
+* Mean, average of the dataset:</p>
+<p>mu = (6+3+100+4+13)/5 = 126/5 = 25
+* Median, middle number of the dataset:</p>
+<p>100
+* Mode, common value in the dataset or which occurs more frequently:</p>
+<p>3</p>
+</blockquote>
+<h4>* <em>Measures of Variability:</em></h4>
+<ul>
+<li>Range, difference between the lowest and the hightest number of the dataset:</li>
+</ul>
+<blockquote>
+<p>Range = 100-3 = 97</p>
+</blockquote>
+<ul>
+<li>Variance, measures how spread out the data is, average of squared differences from the mean:</li>
+<li>Find the mean of the data points</li>
+</ul>
+<blockquote>
+<p>25</p>
+</blockquote>
+<ol>
+<li>Subtract the mean from each data point</li>
+</ol>
+<blockquote>
+<p>6-25 = -19 
+3-25 = -22
+100-25 = 75
+3-25 = -22
+13-25 = -12</p>
+</blockquote>
+<ol>
+<li>Square each result</li>
+</ol>
+<blockquote>
+<p>(-19)^2 = 361 
+(-22)^2 = 484
+(75)^2 = 5625
+(-22)^2 = 484
+(-12)^2 = 144</p>
+</blockquote>
+<ol>
+<li>Find the mean of the results</li>
+</ol>
+<blockquote>
+<p>(361+484+5625+484+144)/5 = 1419.6</p>
+</blockquote>
+<h4>* <em>Standard Deviation (sigma):</em></h4>
+<p>Just the square root of the variance.</p>
+<blockquote>
+<p>sigma = sqrt(1419.6) = 37.68</p>
+</blockquote>
+<hr>
+
+<h4>* <em>Data Distributions:</em></h4>
+<ol>
+<li>
+<p>Probability Distribution Function:
+Describes the likelihood of an event or outcome.</p>
+</li>
+<li>
+<p>Probability Density Function (PDF):
+Represents the probability of a given range of values occuring.</p>
+</li>
+</ol>
+<p><img alt="PDF" src="/home/aman/Desktop/Notes/PDF.png"></p>
+<p>The area under the curve between two points corresponds to the probability 
+that the variable falls between those two values.</p>
+<ul>
+<li>Probability Mass Function (PMF):
+The probability of a given <strong><em>value</em></strong> occuring.</li>
+</ul>
+<p><img alt="PMF" src="/home/aman/Desktop/Notes/PMF.png"></p>
 <h2>Introduction to Data Science in Python</h2>
 <h3>Functions</h3>
 <ul>
 <li>Input<blockquote>
-<p>def add_numbers(x, y):
-return x + y
-add_numbers(1, 2)</p>
+<p>def add_numbers(x, y):</p>
+<p>return x + y</p>
+<p>add_numbers(1, 2)</p>
 </blockquote>
 </li>
 <li>Ouput<blockquote>
